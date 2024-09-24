@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crudactivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Steve Biko Campus"
+        android:textColor="#B22222"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="You have selected Steve Biko campus as your food parcel pickup location, Click DISPLAY DETAILS to see CAMPUSES collection details. "
+        android:textColor="#a52"
+        android:textSize="17dp"
+
+        />
+    <Button
+        android:id="@+id/btnView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="DISPLAY DETAILS"
+        android:layout_marginTop="200dp"/>
+
+    <Button
+        android:id="@+id/btnConfm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="Confirm Booking"
+        android:layout_marginTop="270dp"/>
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="CHOOSE NEW CAMPUS"
+        android:layout_marginTop="450dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@android:color/darker_gray"
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeactivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-34dp"
+        android:gravity="center">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:src="@drawable/dutlogo"
+            android:contentDescription="todo" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Welcome to Dut Feeding Scheme"
+        android:textColor="#B22222"
+        android:textSize="12pt"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="We offer free food parcels ancross all Durban Campuses \n \n Please select a campus to collect you parcels:"
+        android:textColor="#a52"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColorHighlight="#B22222"
+
+        />
+
+    <RadioGroup
+        android:id="@+id/radiogrp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/stevebiko"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="200dp"
+            android:checked="false"
+            android:text="Steve Biko Campus" />
+
+        <RadioButton
+            android:id="@+id/ritson"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:text="Ritson Campus" />
+
+        <RadioButton
+            android:id="@+id/sultan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:text="ML Sultan Campus" />
+
+        <RadioButton
+            android:id="@+id/cityc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:text="City Campus" />
+
+
+    </RadioGroup>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

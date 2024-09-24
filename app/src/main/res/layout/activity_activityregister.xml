@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    tools:context=".activityregister">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Student Registration"
+        android:textColor="#B22222"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username:"
+        android:textColor="#a52"
+        android:textSize="17dp"
+        android:layout_marginTop="69dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:text="Dut Student number:"
+        android:textColor="#a52"
+        android:textSize="17dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dut email address :"
+        android:textColor="#a52"
+        android:textSize="17dp"
+        android:layout_marginTop="250dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Password :"
+        android:textColor="#a52"
+        android:textSize="17dp"
+        android:layout_marginTop="330dp"
+
+        />
+    <EditText
+        android:id="@+id/passwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Your Password"
+        android:layout_marginTop="350dp"
+        android:textSize="17dp"
+        android:textColorHint="@color/cardview_dark_background"
+        />
+
+    <EditText
+        android:id="@+id/confirmpasswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:hint="Confirm Your Password"
+        android:textColorHint="@color/cardview_dark_background"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password :"
+        android:textColor="#a52"
+        android:textSize="17dp"
+        android:layout_marginTop="400dp"
+
+        />
+
+
+    <EditText
+        android:id="@+id/Fistname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:hint="Enter Username"
+        android:textColorHint="@color/cardview_dark_background"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/Studentno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Student Number"
+        android:layout_marginTop="180dp"
+        android:textSize="20dp"
+        android:textColorHint="@color/cardview_dark_background"
+        />
+
+    <EditText
+        android:id="@+id/eMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email"
+        android:layout_marginTop="270dp"
+        android:textSize="20dp"
+        android:textColorHint="@color/cardview_dark_background"
+        />
+
+    <Button
+        android:id="@+id/registersubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="510dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Submit registration"
+        android:textAllCaps="false"
+        android:textColor="#0000FF" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="Login"
+        android:textColor="#0000FF" />
+</RelativeLayout>
